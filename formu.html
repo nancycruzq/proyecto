@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formulario</title>
+	<link rel="shortcut icon" href="ico1.png" type="">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width_device-width,initial-scale-1.0">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<form class="form">
+	<h2 class="form-title">FORMULARIO PARA LA EMPRESA</h2>
+	<div class="fila">
+			<div class="col-25">
+			<label>Nombre: </label>
+			</div>
+			<div class="col-75">
+				<input type="text" name="nom" placeholder="escribe tu nombre">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Clave: </label>
+			</div>
+			<div class="col-75">
+				<input type="password" name="clave" placeholder="escribe tu clave" minlength="8" maxlength="15">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Correo: </label>
+			</div>
+			<div class="col-75">
+				<input type="email" name="correo" placeholder="escribe tu correo">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Pais: </label>
+			</div>
+			<div class="col-75">
+				<select name="pais">
+					<option>Bolivia</option>
+					<option>Peru</option>
+					<option>Argentina</option>
+					<option>Brasil</option>
+					<option>Paraguay</option>
+					<option>venezuela</option>
+					<option>Alemania</option>
+					<option>Estados Unidos</option>
+					<option>Hoduras</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="fila">
+			<div class="col-25">
+			<label>Tipo de proyecto </label>
+			</div>
+			<div class="col-75">
+				<input type="radio" name="Tipo" value="proy1">proyecto1<br>
+				<input type="radio" name="Tipo" value="proy1">proyecto2<br>
+				<input type="radio" name="Tipo" value="proy1">proyecto3<br>
+				<input type="radio" name="Tipo" value="proy1">proyecto4<br>
+				<input type="radio" name="Tipo" value="proy1">proyecto5<br>
+				<input type="radio" name="Tipo" value="proy1">proyecto6<br>
+			</div>
+		</div>
+		
+		<div class="fila">
+			<div class="col-25">
+			<label>Fecha: </label>
+			</div>
+			<div class="col-75">
+				<input type="date" name="fecha" min="2021-10-01">
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-25">
+			<label>Comentarios </label>
+			</div>
+			<div class="col-75">
+				<textarea></textarea>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col-50">
+			<input type="submit" name="enviar" value="enviar Formulario">
+			</div>
+			<div class="col-50">
+				<input type="reset" name="clear" value="limpiar Formulario">
+			</div>
+	</div>
+</form>
+
+</body>
+</html>
